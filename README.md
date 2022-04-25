@@ -22,9 +22,9 @@ tokenizer = AutoTokenizer.from_pretrained("azizbarank/cst5-base")
 
 model = AutoModelForSeq2SeqLM.from_pretrained("azizbarank/cst5-base")
 ```
-Note: 
-Since this is the base t5 model of the Czech language, before using it for any downstream tasks, it needs to be finetuned with appropriate datasets in the first place.
-
+Notes: 
+* Since this is the base t5 model of the Czech language, before using it for any downstream tasks, it needs to be finetuned with appropriate datasets in the first place.
+* The link to the model: https://huggingface.co/azizbarank/cst5-base
 # References
 The substantial amount of this work to create this model is mostly based on the the post written by David Dale: 
 
